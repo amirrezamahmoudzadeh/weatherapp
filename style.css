@@ -1,0 +1,222 @@
+/*
+*  html5resetcss
+*/
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+body {
+  line-height: 1;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+nav ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: none;
+}
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+del {
+  text-decoration: line-through;
+}
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+input,
+select {
+  vertical-align: middle;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(#52a5db, #73bae1);
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.search {
+  margin: 2rem 0;
+}
+.search-input {
+  width: 70vw;
+  outline: none;
+  padding: 0.5rem 0;
+  border-radius: 18px;
+  border: none;
+  text-align: center;
+  margin-right: 0.5rem;
+}
+.search-input::placeholder {
+  color: rgba(91, 91, 102, 0.432);
+}
+.search-button {
+  background: rgb(39, 39, 100);
+  color: #ffffff;
+  border: none;
+  outline: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+.resault {
+  color: white;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 75vw;
+  border-radius: 7px;
+  box-shadow: 0 15px 30px 0 rgb(0, 0, 0);
+  height: 70vh;
+  background: linear-gradient(rgb(51, 51, 207), rgb(39, 39, 100));
+}
+.resault-location {
+  margin: 2rem 0;
+}
+.resault-temperature {
+  margin: 2rem 0;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.resault-temperature span {
+  margin-left: 1rem;
+}
+.resault-temperature-degree {
+  font-size: 8em;
+}
+.resault-condition {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.resault-condition-icon {
+  width: 5rem;
+}
+.resault-condition-text {
+  margin-left: 2rem;
+}
